@@ -1,4 +1,20 @@
+.done{
+  -webkit-transition: color .4s;
+  -moz-transition: color .4s;
+  -ms-transition: color .4s;
+  -o-transition: color .4s;
+  transition: color 1s;
+}
 .done-true {
   text-decoration: line-through;
   color: grey;
+}
+.done:hover{
+	font-size: 2em;
+	vertical-align: -12px;
+    position: relative;
+    top: -8px;
+}
+.checkbox:hover{
+	top: 0;
 }
